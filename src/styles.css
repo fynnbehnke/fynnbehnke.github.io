@@ -36,6 +36,19 @@
   min-height: 87vh;
 }
 
+/* Slideshows */
+.mySlides {
+    display: none;
+    width: 100%; /* or a specific width, e.g., 800px */
+    height: 500px; /* or a specific height, e.g., 500px */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.slideshow-customs .w3-left, .slideshow-customs .w3-right, .slideshow-customs .w3-badge {cursor:pointer}
+.slideshow-customs .w3-badge {height:15px;width:15px;padding:0}
+
+
+/* Buttons */
 .button-highlight {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
 }

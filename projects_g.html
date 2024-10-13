@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="./src/styles.css">
 <link rel="shortcut icon" type="image/x-icon" href="./img/logo/icon.ico">
-
+<script src="./src/scripts/slideshow.js" defer></script>
 </head>
 <body class="w3-light-grey">
 
@@ -58,7 +58,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
 
         <li>
-          <a href="./cv.html">
+          <a href="./cv_g.html">
             <button class="w3-button w3-padding-16 w3-white w3-block w3-left-align">
               <img style="height:20px; transform:translate(-50%,-2.5px);" src="./img/icons/briefcase.svg"><span><b>Lebenslauf</b></span></b>
             </button>
@@ -152,6 +152,76 @@ and is wrapped around the whole page content, except for the footer in this exam
         </li>
       </ul>
 
+    </div>
+  </div>
+
+
+  <!-- Bachelor's Thesis -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <!-- <h3><b>Bachelor's Thesis - Development of a pneumatically operated bionic hand based on soft materials</b></h3> -->
+      <h3><b>Bachelorarbeit</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-bar w3-margin-bottom w3-center" style="display: flex; justify-content: center;gap: 50px;">
+        <a href="https://drive.google.com/file/d/16Yds8kN622mkWPaeZAAxIPfEiF52IYG2/view?usp=sharing" target="_blank">
+          <button class="w3-button w3-padding-large w3-white w3-border" style="width: 220px;">
+            <img style="height:20px; transform:translate(-1px,-2.5px);" src="./img/icons/graduation-cap.svg">
+            <span><b> Bachelorarbeit</b></span>
+          </button>
+        </a>
+        <a href="https://drive.google.com/file/d/1jSS7VyPVO3CgncT31Xm5fkkChCln3IGA/view?usp=sharing" target="_blank">
+          <button class="w3-button w3-padding-large w3-white w3-border" style="width: 220px;">
+            <img style="height:20px; transform:translate(-1px,-2.5px);" src="./img/icons/document-signed.svg">
+            <b> Zusammenfassung</b>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Master's Thesis -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <!-- <h3><b>Master's Thesis - Evaluation of kinematic models for continuum robots based on a tendon-driven continuum robot</b></h3> -->
+      <h3><b>Masterarbeit</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-bar w3-margin-bottom w3-center" style="display: flex; justify-content: center;gap: 50px;">
+        <a href="https://drive.google.com/file/d/1mYBihLNjoaBdGgHe4CKD7wvfh-MffEl7/view?usp=sharing" target="_blank">
+          <button class="w3-button w3-padding-large w3-white w3-border" style="width: 220px;">
+            <img style="height:20px; transform:translate(-1px,-2.5px);" src="./img/icons/graduation-cap.svg">
+            <span><b> Masterarbeit</b></span>
+          </button>
+        </a>
+        <a href="https://drive.google.com/file/d/1aYWhlqunxNQraEgA9aXqzwqqa0fVJSdd/view?usp=sharing" target="_blank">
+          <button class="w3-button w3-padding-large w3-white w3-border" style="width: 220px;">
+            <img style="height:20px; transform:translate(-1px,-2.5px);" src="./img/icons/document-signed.svg">
+            <b> Zusammenfassung</b>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="w3-container" style="max-height: 550px;">
+      <div class="w3-content w3-display-container slideshow-customs" style="max-width:800px; position: relative;">
+        <img class="mySlides" src="./img/projects/masters_thesis/prototype.jpg">
+        <img class="mySlides" src="./img/projects/masters_thesis/example_frame_detection.jpg">
+        <img class="mySlides" src="./img/projects/masters_thesis/vid_1.gif">
+        <img class="mySlides" src="./img/projects/masters_thesis/vid_2.gif">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%; bottom: 10px; position: relative;">
+          <div class="w3-left w3-hover-text-dark-grey" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-dark-grey" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(4)"></span>
+        </div>
+      </div>
     </div>
   </div>
 
