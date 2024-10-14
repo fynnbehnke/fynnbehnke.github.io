@@ -324,11 +324,56 @@ li+li {
 h1,
 h2,
 h3 {
-    border-bottom: 1px solid #eaecef;
     color: #111;
     /* Darker */
 }
 
+.h-border{
+    border-bottom: 1px solid #eaecef;
+}
+
 code>* {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+
+/*
+    CV
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+.entry .date {
+    width: 14%;
+    font-weight: bold;
+    text-align: right;
+}
+.entry .details {
+    width: 83%;
+}
+.entry .details p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.entry .details .w3-tag{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.entry .details ul {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+}
+.entry .details ul li::before {
+    content: "› ";
+    color: #555;
 }

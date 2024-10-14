@@ -46,5 +46,5 @@ function showDivs(n) {
 function startCarousel() {
   slideInterval = setTimeout(function() {
     plusDivs(1); // Move to the next slide every 2 seconds
-  }, 2000);
+  }, 5000);
 }
