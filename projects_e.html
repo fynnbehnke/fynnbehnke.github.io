@@ -6,9 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <link rel="stylesheet" href="./src/styles.css">
 <link rel="shortcut icon" type="image/x-icon" href="./img/logo/icon.ico">
 <script src="./src/scripts/slideshow.js" defer></script>
+<script src="./src/scripts/footer.js"></script>
 </head>
 <body class="w3-light-grey">
 
@@ -126,40 +128,41 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-container">
     <h1><b>PROJECTS</b></h1>
   </div>
-  
-  <div class="w3-card-4 w3-margin w3-white">
+
+  <!-- MREapers -->
+  <!-- <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <p>This section presents projects that I have been or am currently working on.</p>
-
-      <!-- <ul>
-        <li>
-          <h5><b><a href="project link" target=”_blank”>Project title</a> <span class="w3-opacity"> </span></b></h5>
-
-          <p>Description</p>
-        </li>
-      
-      </ul> -->
-
-      <ul>
-        <li>
-          <h5><b>MREapers - SumoBot</b></h5>
-          <!-- <details>
-            <summary><b>Description</b></summary>
-            <p>Inverse kinematics for robots with high degrees of freedom require numerical approaches to approximate optimal solutions in the joint space for a desired endeffector pose. Moreover, computation of the Jacobian matrix is dependent on the configurations design parameters. The use of a mani-fold representation allows to circumvent challenges that may arise when opting for a reduced geometric form. In this work the inverse kinematic problem is approached using an on-manifold optimization scheme based on the Levenberg-Marquardt algorithm, including a technique that can be used for auto-differentiation on arbitrary serial open chains. An open-source implementation based on the Matlab robotics-toolbox is provided and tested on industrial manipulators.</p>
-          </details> -->
-          <a href="project_pages/mreapers_sumobot/index.html">To project page</a>
-          <!-- Video here -->
-        </li>
-      </ul>
-
+      <h3><b>MREapers - RoboRingout 2024</b></h3>
+      <a href="project_pages/mreapers_sumobot/index.html">To project page</a>
     </div>
-  </div>
+
+
+    <div class="w3-container" style="max-height: 550px;">
+      <div class="w3-content w3-display-container slideshow-customs" id="slideshow_mreapers" style="max-width:800px; max-height: 500px; position: relative;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/sumobot_1.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/sumobot_2.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/sumobot_3.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/sumobot_4.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/sumobot_5.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <img class="mySlides" src="./img/projects/mreapers_rro2024/MREapers_icon.png" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%; bottom: 10px; position: relative;">
+          <div class="w3-left w3-hover-text-dark-grey" onclick="slideshows['slideshow_mreapers'].plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-dark-grey" onclick="slideshows['slideshow_mreapers'].plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(4)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(5)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mreapers'].currentDiv(6)"></span>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 
   <!-- Bachelor's Thesis -->
-  <div class="w3-card-4 w3-margin w3-white">
+  <!-- <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <!-- <h3><b>Bachelor's Thesis - Development of a pneumatically operated bionic hand based on soft materials</b></h3> -->
       <h3><b>Bachelor's Thesis</b></h3>
     </div>
 
@@ -179,13 +182,12 @@ and is wrapped around the whole page content, except for the footer in this exam
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!-- Master's Thesis -->
-  <div class="w3-card-4 w3-margin w3-white">
+  <!-- <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container">
-      <!-- <h3><b>Master's Thesis - Evaluation of kinematic models for continuum robots based on a tendon-driven continuum robot</b></h3> -->
       <h3><b>Master's Thesis</b></h3>
     </div>
 
@@ -206,25 +208,75 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
     </div>
 
-    <!-- Slideshow -->
     <div class="w3-container" style="max-height: 550px;">
-      <div class="w3-content w3-display-container slideshow-customs" style="max-width:800px; max-height: 500px; position: relative;">
+      <div class="w3-content w3-display-container slideshow-customs" id="slideshow_mt" style="max-width:800px; max-height: 500px; position: relative;">
         <img class="mySlides" src="./img/projects/masters_thesis/prototype.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
         <img class="mySlides" src="./img/projects/masters_thesis/example_frame_detection.jpg" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
         <img class="mySlides" src="./img/projects/masters_thesis/vid_1.gif" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
         <img class="mySlides" src="./img/projects/masters_thesis/vid_2.gif" style="height: 500px; width: auto; display: block; margin: auto; object-fit: contain;">
         <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%; bottom: 10px; position: relative;">
-          <div class="w3-left w3-hover-text-dark-grey" onclick="plusDivs(-1)">&#10094;</div>
-          <div class="w3-right w3-hover-text-dark-grey" onclick="plusDivs(1)">&#10095;</div>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(1)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(2)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(3)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="currentDiv(4)"></span>
+          <div class="w3-left w3-hover-text-dark-grey" onclick="slideshows['slideshow_mt'].plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-dark-grey" onclick="slideshows['slideshow_mt'].plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mt'].currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mt'].currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mt'].currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-dark-grey" onclick="slideshows['slideshow_mt'].currentDiv(4)"></span>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
+  <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
+    
+    <a href="./projects/mreapers_e.html">
+      <table style="border-collapse: collapse;">
+        <td style="border: none; width: 300px; height: 300px;"><img src="./projects/img/mreapers_rro2024/sumobot_1.jpg" style="width: 100%; height: auto;"></td>
+          <td style="border: none; max-width: 800px; height: 300px;">
+          <h3>MREapers - RoboRingout 2024</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+          <hr />
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a href="./projects/master_thesis_e.html">
+      <table style="border-collapse: collapse;">
+        <td style="border: none; width: 300px; height: 300px;"><img src="./projects/img/masters_thesis/prototype.jpg" style="width: 100%; height: auto;"></td>
+          <td style="border: none; max-width: 800px; height: 300px;">
+          <h3>Master Thesis</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+          <hr />
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a href="./projects/bachelor_thesis_e.html">
+      <table style="border-collapse: collapse;">
+        <td style="border: none; width: 300px; height: 300px;"><img src="./projects/img/masters_thesis/prototype.jpg" style="width: 100%; height: auto;"></td>
+          <td style="border: none; max-width: 800px; height: 300px;">
+          <h3>Bachelor Thesis</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+          <hr />
+          </td>
+        </tr>
+      </table>
+    </a>
+
+    <a href="./projects/amr_e.html">
+      <table style="border-collapse: collapse;">
+        <td style="border: none; width: 300px; height: 300px;"><img src="./projects/img/amr/IMG_20240406_181744.jpg" style="width: 100%; height: auto;"></td>
+          <td style="border: none; max-width: 800px; height: 300px;">
+          <h3>AMR - Autonomous Mobile Robot</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+          <hr />
+          </td>
+        </tr>
+      </table>
+    </a>
+
+  </div>
 
 <!-- END Information Cards -->
 </div>
@@ -235,14 +287,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END w3-content -->
 </div>
 
-<!-- Footer -->
-<footer class="w3-container-footer w3-dark-grey w3-padding-32 w3-margin-top">
-  <!--button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button-->
-  <p>2024 Fynn Behnke</p>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  <p>Icons from <a href="https://www.flaticon.com/icon-fonts-most-downloaded" target=”_blank”>flaticon.com</a></p>
-</footer>
+<!-- Footer Placeholder -->
+<div id="footer"></div>
 
 </body>
 </html>
