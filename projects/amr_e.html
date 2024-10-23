@@ -11,20 +11,20 @@
 <link rel="shortcut icon" type="image/x-icon" href="../img/logo/icon.ico">
 <script src="../src/scripts/single_slideshow.js" defer></script>
 <script>
-// Dynamically load the footer content
-window.addEventListener('DOMContentLoaded', () => {
-    fetch('../footer.html')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.text();
-    })
-    .then(data => {
-      document.getElementById('footer').innerHTML = data;
-    })
-    .catch(error => console.error('Error loading footer:', error));
-});
+  // Dynamically load the footer content
+  window.addEventListener('DOMContentLoaded', () => {
+      fetch('../footer.html')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.text();
+      })
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading footer:', error));
+  });
 </script>
 </head>
 <body class="w3-light-grey">
