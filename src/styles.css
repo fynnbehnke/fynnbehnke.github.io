@@ -126,6 +126,10 @@ footer a {
     color: white; /* Ensure text color is white */
 }
 
+footer a:visited {
+    color: white; /* Ensure text color is white */
+}
+
 body {
     font: 400 16px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #111;
