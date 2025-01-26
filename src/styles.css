@@ -64,6 +64,16 @@
   float: left; /* This makes the list items (buttons) float next to each other */
   margin-right: 10px; /* Add some space between buttons */
 }
+
+.round-button {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
   
 .arrow-down {
     border: solid white;
