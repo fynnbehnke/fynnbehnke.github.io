@@ -1,3 +1,13 @@
+.lang { display: none; }
+
+.lang.active { display: block; }
+
+.language-switcher {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
 .w3-container {
     text-align: left;
     border-radius: 20px;
