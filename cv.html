@@ -12,7 +12,6 @@
   <link rel="shortcut icon" type="image/x-icon" href="./img/logo/icon.ico">
   <script src="./src/scripts/slideshow.js" defer></script>
   <script src="./src/scripts/language.js"></script>
-  <script src="./src/scripts/header.js"></script>
   <script src="./src/scripts/footer.js"></script>
 </head>
 
@@ -23,8 +22,59 @@
   <!--------------------------------------------------- HEADER --------------------------------------------------->
   <!-------------------------------------------------------------------------------------------------------------->
 
-  <!-- header Placeholder -->
-  <div id="header"></div>
+  <!----------------------------------------------------- EN ----------------------------------------------------->
+  <div class="lang en active">
+
+    <!-- Header -->
+    <header class="w3-container-header w3-dark-grey w3-padding-48">
+      <div class="w3-dropdown-hover w3-dark-grey w3-margin-right w3-right">
+        <button class="w3-button">
+          <b>Language</b>
+          <img style="height:20px;" src="./img/icons/english.svg">
+          <i class="arrow-down" style="transform:translate(+50%,-2.5px)rotate(45deg);"></i>
+        </button>
+        <div class="custom-dropdown-languages">
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-right" style="right:0;color: black;">
+            <a onclick="setLanguage('de')" class="w3-bar-item w3-button" style="text-align: center;">
+              <img style="height:20px; transform:translate(-50%,-2.5px);"
+                src="./img/icons/german.svg"><span><b>German</b></span></b>
+            </a>
+            <a onclick="setLanguage('en')" class="w3-bar-item w3-button" style="text-align: center;">
+              <img style="height:20px; transform:translate(-50%,-2.5px);"
+                src="./img/icons/english.svg"><span><b>English</b></span></b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </div>
+
+  <!----------------------------------------------------- DE ----------------------------------------------------->
+  <div class="lang de">
+    <!-- Header -->
+    <header class="w3-container-header w3-dark-grey w3-padding-48">
+      <div class="w3-dropdown-hover w3-dark-grey w3-margin-right w3-right">
+        <button class="w3-button">
+          <b>Sprache</b>
+          <img style="height:20px;" src="./img/icons/german.svg">
+          <i class="arrow-down" style="transform:translate(+50%,-2.5px)rotate(45deg);"></i>
+        </button>
+        <div class="custom-dropdown-languages">
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-right" style="right:0;color: black;">
+            <a onclick="setLanguage('en')" class="w3-bar-item w3-button" style="text-align: center;">
+              <img style="height:20px; transform:translate(-50%,-2.5px);"
+                src="./img/icons/english.svg"><span><b>Englisch</b></span></b>
+            </a>
+            <a onclick="setLanguage('de')" class="w3-bar-item w3-button" style="text-align: center;">
+              <img style="height:20px; transform:translate(-50%,-2.5px);"
+                src="./img/icons/german.svg"><span><b>Deutsch</b></span></b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
 
   <!-------------------------------------------------------------------------------------------------------------->
   <!------------------------------------------------ PAGE CONTENT ------------------------------------------------>
